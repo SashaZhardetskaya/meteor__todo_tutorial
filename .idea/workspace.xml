@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="012f822f-cd91-440d-9ce7-62f6617ad204" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/simple-todos/imports/api/tasks.tests.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/.meteor/packages" afterPath="$PROJECT_DIR$/simple-todos/.meteor/packages" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/.meteor/versions" afterPath="$PROJECT_DIR$/simple-todos/.meteor/versions" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/imports/api/tasks.js" afterPath="$PROJECT_DIR$/simple-todos/imports/api/tasks.js" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/imports/ui/App.js" afterPath="$PROJECT_DIR$/simple-todos/imports/ui/App.js" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/imports/ui/Task.js" afterPath="$PROJECT_DIR$/simple-todos/imports/ui/Task.js" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/package-lock.json" afterPath="$PROJECT_DIR$/simple-todos/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/package.json" afterPath="$PROJECT_DIR$/simple-todos/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,13 +63,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-todos/imports/api/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="-400">
               <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.tests.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple-todos/imports/api/tasks.tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +117,7 @@
         <option value="$PROJECT_DIR$/simple-todos/imports/ui/App.js" />
         <option value="$PROJECT_DIR$/simple-todos/imports/ui/Task.js" />
         <option value="$PROJECT_DIR$/simple-todos/imports/api/tasks.js" />
+        <option value="$PROJECT_DIR$/simple-todos/imports/api/tasks.tests.js" />
       </list>
     </option>
   </component>
@@ -237,15 +244,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516960781439</updated>
-      <workItem from="1516960782555" duration="9047000" />
+      <workItem from="1516960782555" duration="9463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9047000" />
+    <option name="totallyTimeSpent" value="9463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="33" width="1400" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -254,7 +262,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -273,7 +281,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -367,10 +377,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-todos/imports/api/tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="-400">
           <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/api/tasks.tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
