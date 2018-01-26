@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="012f822f-cd91-440d-9ce7-62f6617ad204" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/simple-todos/imports/startup/accounts-config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/simple-todos/imports/ui/AccountsUIWrapper.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/simple-todos/.meteor/packages" afterPath="$PROJECT_DIR$/simple-todos/.meteor/packages" />
       <change beforePath="$PROJECT_DIR$/simple-todos/.meteor/versions" afterPath="$PROJECT_DIR$/simple-todos/.meteor/versions" />
-      <change beforePath="$PROJECT_DIR$/simple-todos/client/main.js" afterPath="$PROJECT_DIR$/simple-todos/client/main.js" />
+      <change beforePath="$PROJECT_DIR$/simple-todos/imports/api/tasks.js" afterPath="$PROJECT_DIR$/simple-todos/imports/api/tasks.js" />
       <change beforePath="$PROJECT_DIR$/simple-todos/imports/ui/App.js" afterPath="$PROJECT_DIR$/simple-todos/imports/ui/App.js" />
       <change beforePath="$PROJECT_DIR$/simple-todos/imports/ui/Task.js" afterPath="$PROJECT_DIR$/simple-todos/imports/ui/Task.js" />
     </list>
@@ -27,8 +24,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="38" />
+            <state relative-caret-position="185">
+              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -48,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Task.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/Task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -60,12 +57,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accounts-config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="accounts-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-todos/imports/startup/accounts-config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-todos/imports/api/tasks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,13 +101,13 @@
       <list>
         <option value="$PROJECT_DIR$/simple-todos/client/main.html" />
         <option value="$PROJECT_DIR$/simple-todos/client/main.css" />
-        <option value="$PROJECT_DIR$/simple-todos/imports/api/tasks.js" />
         <option value="$PROJECT_DIR$/simple-todos/server/main.js" />
         <option value="$PROJECT_DIR$/simple-todos/imports/ui/AccountsUIWrapper.js" />
         <option value="$PROJECT_DIR$/simple-todos/client/main.js" />
+        <option value="$PROJECT_DIR$/simple-todos/imports/startup/accounts-config.js" />
+        <option value="$PROJECT_DIR$/simple-todos/imports/api/tasks.js" />
         <option value="$PROJECT_DIR$/simple-todos/imports/ui/App.js" />
         <option value="$PROJECT_DIR$/simple-todos/imports/ui/Task.js" />
-        <option value="$PROJECT_DIR$/simple-todos/imports/startup/accounts-config.js" />
       </list>
     </option>
   </component>
@@ -232,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516960781439</updated>
-      <workItem from="1516960782555" duration="5963000" />
+      <workItem from="1516960782555" duration="6492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5963000" />
+    <option name="totallyTimeSpent" value="6492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="33" width="1400" height="800" extended-state="0" />
@@ -288,14 +297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-todos/imports/api/tasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-todos/.meteor/local/resolver-result-cache.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -320,30 +321,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/Task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/AccountsUIWrapper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -365,6 +346,36 @@
         <state relative-caret-position="45">
           <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/api/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/Task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
