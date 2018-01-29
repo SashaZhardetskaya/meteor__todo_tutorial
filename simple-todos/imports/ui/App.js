@@ -12,19 +12,17 @@ import AccountsUIWrapper from './AccountsUIWrapper.js';
 // App component - represents the whole app
 class App extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            hideCompleted: false,
-        };
-    }
+    state = {
+        hideCompleted: false,
+        taskBody: '',
+    };
 
     handleSubmit = (event) => {
         event.preventDefault();
 
         // Find the text field via the React ref
-        const text = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
+        const text = this.state.taskBody.trim();
+
 
         Meteor.call('tasks.insert', text);
 
@@ -36,32 +34,26 @@ class App extends Component {
         });
 
         // Clear form
-        ReactDOM.findDOMNode(this.refs.textInput).value = '';
+        // ReactDOM.findDOMNode(this.refs.textInput).value = '';
+        this.setState({taskBody: ''})
     };
 
-    renderTasks() {
-        let filteredTasks = this.props.tasks;
-        if (this.state.hideCompleted) {
-            filteredTasks = filteredTasks.filter(task => !task.checked);
-        }
-        return filteredTasks.map((task) => {
-            const currentUserId = this.props.currentUser && this.props.currentUser._id;
-            const showPrivateButton = task.owner === currentUserId;
-
-            return (
+    renderTasks = () => (
+        this.props.tasks
+            .filter(task => this.state.hideCompleted ? !task.checked : true)
+            .map((task) => (
                 <Task
-                    key={task._id}
+                    key={`task_${task._id}`}
                     task={task}
-                    showPrivateButton={showPrivateButton}
+                    showPrivateButton={task.owner === (this.props.currentUser && this.props.currentUser._id)}
                 />
-            );
-        });
-    }
+            ))
+    );
 
     toggleHideCompleted() {
-        this.setState({
-            hideCompleted: !this.state.hideCompleted,
-        });
+        this.setState((prevState) => ({
+            hideCompleted: !prevState.hideCompleted
+        }));
     }
 
     render() {
@@ -82,14 +74,19 @@ class App extends Component {
 
                     <AccountsUIWrapper />
 
-                    { this.props.currentUser ?
-                        <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
+                    {
+                        this.props.currentUser &&
+                        <form
+                            className="new-task"
+                            onSubmit={this.handleSubmit}
+                        >
                             <input
                                 type="text"
-                                ref="textInput"
                                 placeholder="Type to add new tasks"
+                                value={this.state.taskBody}
+                                onChange={({target: {value: taskBody}}) => this.setState({taskBody})}
                             />
-                        </form> : ''
+                        </form>
                     }
                 </header>
 
