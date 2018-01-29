@@ -5,15 +5,14 @@ import classnames from 'classnames';
 
 import { Tasks } from '../api/tasks.js';
 
-
-
 // Task component - represents a single todo item
 export default class Task extends Component {
 
     toggleChecked() {
-        // Set the checked property to the opposite of its current value
+        // Set the checked property to the opposite of its current valueь
         Meteor.call('tasks.setChecked', this.props.task._id, !this.props.task.checked);
     }
+
 
     deleteThisTask() {
         Meteor.call('tasks.remove', this.props.task._id);
