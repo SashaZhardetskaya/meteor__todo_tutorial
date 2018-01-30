@@ -1,0 +1,60 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "84cf61a68409d48daa5f5cc5bba8e0736b62abc0.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/84cf61a68409d48daa5f5cc5bba8e0736b62abc0.js?meteor_js_resource=true",
+      "size": 755322,
+      "hash": "84cf61a68409d48daa5f5cc5bba8e0736b62abc0"
+    },
+    {
+      "path": "84cf61a68409d48daa5f5cc5bba8e0736b62abc0.stats.json",
+      "where": "client",
+      "type": "json",
+      "cacheable": true,
+      "url": "/84cf61a68409d48daa5f5cc5bba8e0736b62abc0.stats.json?meteor_js_resource=true",
+      "size": 26448,
+      "hash": "4739e7340186d0d5d2b661db01f639337011d9a2"
+    },
+    {
+      "path": "b019e628c9244b8a3edd7d2929db142c09992942.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/b019e628c9244b8a3edd7d2929db142c09992942.css?meteor_css_resource=true",
+      "size": 9058,
+      "hash": "b019e628c9244b8a3edd7d2929db142c09992942"
+    },
+    {
+      "path": "packages/oauth/end_of_popup_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_popup_response.js",
+      "size": 1137,
+      "hash": "8a36abddc07778ebcf5db6253f08bd2b63d02c63"
+    },
+    {
+      "path": "packages/oauth/end_of_redirect_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_redirect_response.js",
+      "size": 356,
+      "hash": "db42ae47cb556ec736c5b7b1cee4cfbed3f8abf6"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "adc087ff28f81cf35bfe42c23ad1ffae048abc29"
+    }
+  ],
+  "cordovaCompatibilityVersions": {
+    "android": "9246fa64a8c1636be9b8819fffde2942c15e9438",
+    "ios": "ca0e12d94c6791865140dcff21dc9425c5c37e2d"
+  }
+}
